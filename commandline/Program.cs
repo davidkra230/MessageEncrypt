@@ -63,7 +63,7 @@ namespace EncryptionDecryptionUsingSymmetricKey
             // title :)
             Console.Title = "Cipher";
             
-            // old code/ not needed
+            // old code, not needed
             // // install the code-sign public key in the client
             // if (Globals.DidCert == false)
             // {
