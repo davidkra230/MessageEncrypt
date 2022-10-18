@@ -4,6 +4,7 @@ encryption and decryption in c#
 ## Todo:
 ### Pending:
 
+- [ ] Smaller refactors.
 - [ ] Make a gui.
 - [ ] Make a better app manifest for windows.
 - [ ] Make github actions work properly.
