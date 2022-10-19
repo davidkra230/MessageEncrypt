@@ -27,4 +27,4 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.0
       with:
-        path: bin/Release/net7.0/win-x64/native
+        path: commandline/bin/Release/net7.0/win-x64/native
