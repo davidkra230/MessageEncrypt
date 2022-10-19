@@ -19,4 +19,3 @@ encryption and decryption in c#
 ### Done:
 
 - [x] Basic commandline interface.
-- [x] External key file. 
