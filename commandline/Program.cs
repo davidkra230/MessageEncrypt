@@ -10,7 +10,7 @@ namespace EncryptionDecryptionUsingSymmetricKey
         public static string EncryptString(string key, string plainText)
         {
             // set inital stuff
-            byte[] iv = Encoding.UTF8.GetBytes(Assembly.GetExecutingAssembly().GetManifestResourceStream(@"iv.txt"));
+            byte[] iv = Keys.Main.iv;
             byte[] array;
 
             using (Aes aes = Aes.Create())
@@ -39,7 +39,7 @@ namespace EncryptionDecryptionUsingSymmetricKey
         {
             // inital stuff
 
-            byte[] iv = Encoding.UTF8.GetBytes(Assembly.GetExecutingAssembly().GetManifestResourceStream(@"iv.txt"));
+            byte[] iv = Keys.Main.iv;
             byte[] buffer = Convert.FromBase64String(cipherText);
 
             using Aes aes = Aes.Create();
@@ -87,7 +87,7 @@ namespace EncryptionDecryptionUsingSymmetricKey
             // }
 
             // set secret
-            string secret = Assembly.GetExecutingAssembly().GetManifestResourceStream(@"secret.txt");
+            string secret = Keys.Main.secret;
 
             // the main thing, more comments inside.
             try
