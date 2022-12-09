@@ -11,7 +11,7 @@ encryption and decryption in c#
 - [ ] Add obfuscation to encrypted string.
 - [ ] Port it over to android.
 - [ ] BetterDiscord extension?
-- [ ] Allow the creation of an shareable exe with a embedded encryption/decryption key.
+- [ ] Allow the creation of an shareable exe with a embedded encryption/decryption key. (alternative file streams?)
 - [ ] Allow the encryption of files.
 - [ ] Refactor code.
 - [ ] Make better readme.
